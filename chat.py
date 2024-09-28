@@ -5,7 +5,6 @@ import streamlit as st
 from embedchain import App
 from streamlit_chat import message
 
-
 # Embedchain bot setup
 def embedchain_bot(db_path):
     return App.from_config(
